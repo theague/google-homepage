@@ -1,0 +1,30 @@
+.topnav {
+    background-color: rgb(247, 236, 236);
+    color: #222
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    line-height: 60px;
+    padding: 14px 6px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.material-icons-outlined{
+vertical-align: middle;
+}
+
+.google-logo {
+    width: 292px;
+}

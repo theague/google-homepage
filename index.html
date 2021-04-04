@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
     <title>Clone of Google Homepage</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-        </ul>
-        <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>Apps</li>
-            <li><button>Sign In</button></li>
-
-        </ul>
+    <nav class="topnav">
+        <a href="#">About</a>
+        <a href="#">Store</a>
+        <div class="topnav-right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#"><span class="material-icons-outlined">apps</span></a>
+            <button>Sign In</button>
+        </div>
     </nav>
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="the google logo">
+    <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="the google logo">
     <form>
         <input type="text" name="" id="">
         <input type="button" value="Google Search">
