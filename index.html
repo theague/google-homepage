@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet">
+      <script src="https://kit.fontawesome.com/406e5e23df.js" crossorigin="anonymous"></script>  
     <title>Clone of Google Homepage</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <div class="topnav-right">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <a href="#"><span class="material-icons-outlined">apps</span></a>
+            <a href="#"><span class="material-icons-outlined app">apps</span></a>
             <a href="#" class="button">Sign In</a>
         </div>
     </nav>
@@ -24,10 +25,11 @@
     <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="the google logo">
     </div>
     <div>
-        <form>
-            <input type="text" name="search" id="search">
-            <input type="button" value="Google Search">
-            <input type="button" value="I'm Feeling Lucky">
+        <form class="search">
+            <span class="fas fa-search icon"></span>
+            <input id="search-field" type="text" name="query"></br>
+            <input class="search-btn" type="submit" value="Google Search">
+            <input class="search-btn" type="submit" value="I'm Feeling Lucky">
         </form>
     </div>
     <footer>
