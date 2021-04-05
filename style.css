@@ -3,7 +3,6 @@ body {
 }
 
 .topnav {
-    background-color: rgb(247, 236, 236);
     color: #222;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -14,6 +13,7 @@ body {
 }
 
 .topnav a {
+    color: #222;
     line-height: 60px;
     padding: 14px 6px;
     text-align: center;
@@ -21,12 +21,64 @@ body {
     width: 100%;
 }
 
+.topnav a:first-of-type {
+    margin-left: 15px;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
 .topnav-right {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
     float: right;
+    padding-left: 32px;
+    padding-right: 4px;
+}
+
+button {
+    background-clip: border-box;
+    background-color: rgb(26, 115, 232);
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: #fff;
+    cursor: pointer;
+    height: 16px;
+    margin: 8px;
+    min-width: 80px;
+    padding: 9px 15px;
+    
 }
 
 .material-icons-outlined{
-vertical-align: middle;
+    border-radius: 2px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.material-icons-outlined:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+
 }
 
 .logo {
