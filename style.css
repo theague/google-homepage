@@ -2,11 +2,20 @@ body {
     margin-top: 60px;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 60px;
+}
+
 .topnav {
     color: #222;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    height: 60px;
+    height: 47px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -158,4 +167,56 @@ a.button:hover {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+
+
+
+a {
+    color: #70757a;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.footer {
+    align-items: center;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    height: 47px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.fd {
+    display: flex;
+}
+
+#fd1 {
+    justify-content: space-between;
+    min-width: 30%;
+    order: 1;
+}
+
+#leaf {
+    height: 14px;
+    margin-right: 6px;
+}
+
+#fd2 {
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 2;
+}
+
+
+
+#fd3 {
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
 }
