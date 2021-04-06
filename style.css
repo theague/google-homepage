@@ -2,11 +2,6 @@ body {
     margin-top: 60px;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
 #content-wrap {
     padding-bottom: 60px;
 }
@@ -169,8 +164,6 @@ a.button:hover {
     color: #202124;
 }
 
-
-
 a {
     color: #70757a;
     font-family: Arial, sans-serif;
@@ -187,8 +180,9 @@ a {
     font-size: 14px;
     height: 47px;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -197,7 +191,7 @@ a {
 }
 
 #fd1 {
-    justify-content: space-between;
+    cursor: pointer;
     min-width: 30%;
     order: 1;
 }
@@ -208,15 +202,16 @@ a {
 }
 
 #fd2 {
+    cursor: pointer;
     justify-content: flex-start;
     min-width: 30%;
     order: 2;
 }
 
-
-
 #fd3 {
+    cursor: pointer;
     justify-content: flex-end;
     min-width: 30%;
     order: 3;
+    white-space: nowrap;
 }
