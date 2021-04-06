@@ -4,4 +4,4 @@ Assignment #1: Clone the google homepage
 
 4/5/21 - Continuing with the styling of the homepage. Working on the footer at this point. Cannot get the footer working correctly and I'm calling it a night.
 
-4/6/21 - Found instructions on w3schools that worked. Very simple fix and the importance of taking a break was just reaffirmed. Looking at this with fresh eyes helped a lot.
+4/6/21 - Found instructions on w3schools that worked. Very simple fix and the importance of taking a break was just reaffirmed. Looking at this with fresh eyes helped a lot. I could not get the spacing quite right on the footer text. I'm going to let this slide since this is my first project I don't want to get bogged down with perfection.
